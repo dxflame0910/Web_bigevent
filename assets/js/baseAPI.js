@@ -1,12 +1,6 @@
 $.ajaxPrefilter(function (options) {
     // 在发起真正的 Ajax 请求之前，统一拼接请求的根路径
     options.url = 'http://ajax.frontend.itheima.net' + options.url
-<<<<<<< HEAD
-    // options.url = 'http://127.0.0.1:8080' + options.url
-})
-
-
-=======
 
     options.complete = function (res) {
         // console.log('执行了 complete 回调：')
@@ -39,5 +33,4 @@ $.ajaxPrefilter(function (options) {
 
 // })
 
->>>>>>> index
 
